@@ -1,0 +1,49 @@
+[
+    {
+        "id": "a1c767cfc35bd6de",
+        "type": "ui_gauge",
+        "z": "48eaf9857933db42",
+        "name": "",
+        "group": "d3967f8692f6a4cd",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "wave",
+        "title": "Humedad",
+        "label": "%",
+        "format": "{{value}}",
+        "min": "5",
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 920,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "d3967f8692f6a4cd",
+        "type": "ui_group",
+        "name": "Humedad",
+        "tab": "d8e60cd4f51c2acf",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d8e60cd4f51c2acf",
+        "type": "ui_tab",
+        "name": "Flow 4",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    }
+]
