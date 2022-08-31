@@ -42,7 +42,7 @@ Para ejecutar este flow, es necesario lo siguiente
 - Enviar por MQTT un mensaje que contenga un JSON con las variables ID, temp y hum
 Notas
 * Este Flow se suscribe al tema codigoIoT/Mor/mqtt/flow4
-* El mensaje mqtt usado para probar este flow es mosquitto_pub -h localhost -t codigoIoT/Mor/mqtt/flow4 -m '{"ID":"Jonathan Jesus","temp":21,"hum":74}'
+* El mensaje mqtt usado para probar este flow es mosquitto_pub -h localhost -t Flow4 -m '{"ID":"Jonathan Jesus","temp":21,"hum":53}'
 * Para que la gráfica historica muestre información, deben enviarse al menos 2 puntos
 
 ## [Resultado]
